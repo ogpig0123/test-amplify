@@ -25,6 +25,14 @@ import { ProductList } from "./product/ProductList";
 import { ProductCreate } from "./product/ProductCreate";
 import { ProductEdit } from "./product/ProductEdit";
 import { ProductShow } from "./product/ProductShow";
+import { FeedbackList } from "./feedback/FeedbackList";
+import { FeedbackCreate } from "./feedback/FeedbackCreate";
+import { FeedbackEdit } from "./feedback/FeedbackEdit";
+import { FeedbackShow } from "./feedback/FeedbackShow";
+import { NotificationList } from "./notification/NotificationList";
+import { NotificationCreate } from "./notification/NotificationCreate";
+import { NotificationEdit } from "./notification/NotificationEdit";
+import { NotificationShow } from "./notification/NotificationShow";
 import { jwtAuthProvider } from "./auth-provider/ra-auth-jwt";
 
 const App = (): React.ReactElement => {
@@ -85,6 +93,20 @@ const App = (): React.ReactElement => {
           edit={ProductEdit}
           create={ProductCreate}
           show={ProductShow}
+        />
+        <Resource
+          name="Feedback"
+          list={FeedbackList}
+          edit={FeedbackEdit}
+          create={FeedbackCreate}
+          show={FeedbackShow}
+        />
+        <Resource
+          name="Notification"
+          list={NotificationList}
+          edit={NotificationEdit}
+          create={NotificationCreate}
+          show={NotificationShow}
         />
       </Admin>
     </div>

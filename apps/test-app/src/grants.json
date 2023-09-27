@@ -286,5 +286,125 @@
     "resource": "Product",
     "action": "read:any",
     "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Feedback",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "publisher",
+    "resource": "Feedback",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Feedback",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "publisher",
+    "resource": "Feedback",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Feedback",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "publisher",
+    "resource": "Feedback",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Feedback",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "publisher",
+    "resource": "Feedback",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Feedback",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "publisher",
+    "resource": "Feedback",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Notification",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "publisher",
+    "resource": "Notification",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Notification",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "publisher",
+    "resource": "Notification",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Notification",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "publisher",
+    "resource": "Notification",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Notification",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "publisher",
+    "resource": "Notification",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Notification",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "publisher",
+    "resource": "Notification",
+    "action": "read:any",
+    "attributes": "*"
   }
 ]
