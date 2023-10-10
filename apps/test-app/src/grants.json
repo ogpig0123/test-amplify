@@ -180,6 +180,18 @@
     "attributes": "*"
   },
   {
+    "role": "publisher",
+    "resource": "Address",
+    "action": "read:own",
+    "attributes": "*,!address_2,!address_1"
+  },
+  {
+    "role": "user",
+    "resource": "Address",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
     "role": "user",
     "resource": "Address",
     "action": "create:any",
